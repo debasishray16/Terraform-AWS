@@ -4,9 +4,9 @@
 
 ```terraform
 provider "aws" {
-  region = "ap-southeast-2" // enter region
-  access_key = "AKIA4MTWHC7CZZXMQ2WY"
-  secret_key = "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"
+  region = "" // enter region
+  access_key = "" // Enter access key
+  secret_key = "" // Enter secret key
 }
 
 
