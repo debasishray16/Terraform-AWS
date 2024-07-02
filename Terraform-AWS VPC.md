@@ -39,9 +39,9 @@ resource "local_file" "private_key" {
 
 // Create instance
 resource "aws_instance" "demo_server" {
-  ami           = "ami-0f06718ac552afe18"
-  key_name      = "Linux-sec-key"
-  instance_type = "t2.micro"
+  ami           = ""
+  key_name      = ""
+  instance_type = ""
 
   subnet_id= aws_subnet.demo_subnet.id
   vpc_security_group_ids=[aws_security_group.demo_vpc_sg.id]
